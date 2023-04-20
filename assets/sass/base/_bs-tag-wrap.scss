@@ -1,0 +1,17 @@
+.bs-tag-wrap {
+    ul {
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-bottom: 0;
+        li {
+            list-style: none;
+            float: left;
+            display: inline;
+        }
+    }
+}

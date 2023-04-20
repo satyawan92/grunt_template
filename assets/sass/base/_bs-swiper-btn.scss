@@ -1,0 +1,57 @@
+.bs-swiper {
+    position: relative;
+    z-index: 1;
+    margin: 30px 0;
+    .sw-btn-next {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        background-color: $clr-white;
+        border: 1px solid $clr-lightgray;
+        right: -2%;
+        top: 50%;
+        position: absolute;
+        text-decoration: none;
+        span {
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            i {
+                color: $clr-theme;
+            }
+        }
+    }
+    .sw-btn-prev {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        outline: none;
+        background-color: $clr-white;
+        border: 1px solid $clr-lightgray;
+        left: -2%;
+        top: 50%;
+        position: absolute;
+        text-decoration: none;
+        span {
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            i {
+                color: $clr-theme;
+            }
+        }
+    }
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    background-image: none !important;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background-image: none !important;
+}

@@ -1,0 +1,111 @@
+// .counter_wrapper {
+//     width: 100%;
+//     background: #f9f9f9;
+//     padding-top: 20px;
+//     padding-bottom: 100px;
+// }
+// .counter_wrapper .count_box {
+//     padding: 50px 20px;
+//     border-radius: 10px;
+//     text-align: center
+// }
+// .counter_wrapper .count_box h3 {
+//     font-size: 40px;
+//     font-weight: 600;
+//     color: #222;
+//     -webkit-transition: all .5s;
+//     -o-transition: all .5s;
+//     -ms-transition: all .5s;
+//     -moz-transition: all .5s;
+//     transition: all .5s
+// }
+// .counter_wrapper .count_box h4 {
+//     font-size: 15px;
+//     font-weight: 300;
+//     text-transform: uppercase;
+//     color: #313131;
+//     padding-top: 10px;
+//     -webkit-transition: all .5s;
+//     -o-transition: all .5s;
+//     -ms-transition: all .5s;
+//     -moz-transition: all .5s;
+//     transition: all .5s
+// }
+// .counter_wrapper .box_center {
+//     background-position: center 0;
+//     background-size: cover
+// }
+// .counter_wrapper .box_center h3,
+// .counter_wrapper .box_center h4 {
+//     color: #fff;
+//     -webkit-transition: all .5s;
+//     -o-transition: all .5s;
+//     -ms-transition: all .5s;
+//     -moz-transition: all .5s;
+//     transition: all .5s
+// }
+// .counter_wrapper .box_hover:hover h3,
+// .box_hover:hover h4 {
+//     color: #fff
+// }
+// @media(max-width:768px) {
+//     .counter_wrapper .col-md-4 {
+//         margin-bottom: 15px
+//     }
+// }
+.md-counter {
+    padding: 30px 0;
+    margin: 0 auto;
+    background-color: #ededed;
+    .wrap-counter {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .bx-count {
+        text-align: center;
+        margin-bottom: 10px;
+        .cm-icons {
+            font-size: 75px;
+            color: $clr-theme;
+        }
+        h3 {
+            font-size: 45px;
+            color: $clr-gray;
+            font-weight: 600;
+        }
+        h4 {
+            font-size: 20px;
+            color: $clr-gray;
+        }
+    }
+}
+
+@media only screen and (max-width:$mobile-breakpoint) {
+    .md-counter {
+        padding: 10px;
+        max-width: 100%;
+        margin: 0 auto;
+        .wrap-counter {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .bx-count {
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            .cm-icons {
+                font-size: 45px;
+                color: $clr-theme;
+            }
+            h3 {
+                font-size: 28px;
+                color: $clr-gray;
+                font-weight: 600;
+            }
+            h4 {
+                font-size: 16px;
+                color: $clr-gray;
+            }
+        }
+    }
+}

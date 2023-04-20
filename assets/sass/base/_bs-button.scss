@@ -1,0 +1,75 @@
+.bs-btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 9px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: $fnt1;
+    text-transform: uppercase;
+    border-radius: 5px;
+    &.typ-gray {
+        background-color: $clr-lightgray;
+        border: 1px solid $clr-lightgray;
+        margin: 10px 10px 10px 0;
+        &:hover {
+            background-color: $clr-theme;
+            border: 1px solid $clr-theme;
+        }
+    }
+    &.typ-transperent {
+        background-color: transparent;
+        border: 1px solid $clr-white;
+        color: $clr-white;
+        text-transform: capitalize;
+        &:hover {
+            background-color: $clr-theme;
+            border: 1px solid $clr-theme;
+            color: $clr-white;
+        }
+    }
+    &.typ-theme {
+        background-color: $clr-theme;
+        border: 1px solid $clr-theme;
+        color: $clr-white;
+        text-transform: capitalize;
+        &:hover {
+            color: $clr-lightgray;
+        }
+    }
+    &.with-icon {
+        background-color: $clr-white;
+        border: 1px solid $clr-white;
+        color: $clr-gray;
+        font-size: 18px;
+        max-width: 250px;
+        &:hover {
+            background-color: $clr-theme;
+            border: 1px solid $clr-theme;
+            color: $clr-white;
+        }
+        i {
+            margin-right: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width:$mobile-breakpoint) {
+    .bs-btn {
+        &.with-icon {
+            max-width: 250px;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'), url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'), url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'), url('../fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'), url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?qo9l2b');
+    src: url('../fonts/icomoon.eot?qo9l2b#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?qo9l2b') format('truetype'), url('../fonts/icomoon.woff?qo9l2b') format('woff'), url('../fonts/icomoon.svg?qo9l2b#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tg-chevron-down:before {
+    content: "\e900";
+}
+
+.icon-tg-clock:before {
+    content: "\e901";
+}
+
+.icon-tg-facebook:before {
+    content: "\e902";
+}
+
+.icon-tg-instagram:before {
+    content: "\e903";
+}
+
+.icon-tg-left-arrow:before {
+    content: "\e904";
+}
+
+.icon-tg-linkedin:before {
+    content: "\e905";
+}
+
+.icon-tg-maps:before {
+    content: "\e906";
+}
+
+.icon-tg-mortarboard:before {
+    content: "\e907";
+}
+
+.icon-tg-right-arrow:before {
+    content: "\e908";
+}
+
+.icon-tg-right-chevron:before {
+    content: "\e909";
+}
+
+.icon-tg-twitter:before {
+    content: "\e90a";
+}
+
+.icon-tg-user:before {
+    content: "\e90b";
+}

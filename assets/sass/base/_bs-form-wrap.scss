@@ -1,0 +1,102 @@
+.bs-form-wrap {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    .bs-form-container {
+        padding: 30px 0 10px 30px;
+        background-color: #ededed;
+    }
+    .form-control:focus {
+        border-color: $clr-theme;
+        box-shadow: none;
+    }
+    .input-group-text {
+        background-color: $clr-white;
+        border-right: none;
+    }
+    .form-fieldwrap {
+        margin-bottom: 25px;
+    }
+    .form-content {
+        padding: 20px 30px;
+        form label {
+            font-size: 14px;
+            color: $clr-white;
+            font-weight: normal;
+            cursor: pointer;
+        }
+        .form-group {
+            margin-bottom: 25px;
+            margin: 0 10px;
+        }
+        label.error {
+            color: #ff4343;
+        }
+         ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #000000;
+            /* Firefox */
+        }
+         :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #a4b6cf;
+        }
+         ::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: #a4b6cf;
+        }
+        form label,
+        form input {
+            float: left;
+            clear: both;
+        }
+        form input,
+        textarea {
+            margin: 5px 0;
+            padding: 9px 20px;
+            width: 100%;
+            outline: none;
+            border: 1px solid #dce4ec;
+            border-radius: 8px;
+            display: inline-block;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transition: 0.2s ease all;
+            -moz-transition: 0.2s ease all;
+            -ms-transition: 0.2s ease all;
+            -o-transition: 0.2s ease all;
+            transition: 0.2s ease all;
+            // color: $clr-theme;
+            box-shadow: none;
+        }
+        form input[type=text]:focus {
+            border-color: cornflowerblue;
+            border: none;
+        }
+        input[type=submit]:hover {
+            opacity: 0.8;
+        }
+        input[type="submit"]:active {
+            opacity: 0.4;
+        }
+    }
+}
+
+@media only screen and (max-width:$mobile-breakpoint) {
+    .bs-form-wrap {
+        margin: 0 auto;
+        .form-bx {
+            padding: 30px;
+        }
+        .form-content {
+            padding: 0px;
+        }
+        .form-fieldwrap {
+            margin-bottom: 15px;
+        }
+        .bs-form-container {
+            padding: 20px 20px 10px 20px;
+        }
+    }
+}

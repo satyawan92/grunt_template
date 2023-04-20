@@ -1,0 +1,52 @@
+/*
+  @Author : satyawansawant92@gmai.com
+  @Project : Grunt
+  @Dev : Satya
+  @Date : 14/06/2022;
+*/
+
+
+
+/*font awesome 5.7.1*/
+
+// @import "fonts/font";
+
+/* config */
+
+@import "config/mixin";
+@import "config/variables";
+
+/* common */
+
+@import "common/common";
+
+/* base include */
+
+
+@import "base/bs-header";
+@import "base/bs-footer";
+@import "base/bs-logo-strip";
+@import "base/bs-list";
+@import "base/bs-button";
+@import "base/bs-banner";
+@import "base/bs-tag-wrap";
+@import "base/bs-heading";
+@import "base/bs-course-box";
+@import "base/bs-swiper-btn";
+@import "base/bs-form-wrap";
+@import "base/bs-blogcard";
+@import "base/bs-course-card";
+@import "base/bs-imagecard";
+@import "base/bs-searchbox";
+
+/* layout */
+
+
+/* pages */
+
+
+/* modules */
+
+
+/* plugins */
+@import "plugins/bootsrap/bootstrap.min";

@@ -1,0 +1,78 @@
+.bs-searchbox {
+    position: relative;
+    .typ-search {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        float: left;
+        display: inline-block;
+        margin-left: -3px;
+        margin-top: 5px;
+        height: 42px;
+    }
+     ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: $clr-gray;
+    }
+     ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: $clr-white;
+    }
+     :-ms-input-placeholder {
+        /* IE 10+ */
+        color: $clr-white;
+    }
+     :-moz-placeholder {
+        /* Firefox 18- */
+        color: $clr-white;
+    }
+    .locate-btn {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        padding: 7px 10px;
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+        color: $clr-gray;
+        .icon-style {
+            margin-right: 5px;
+        }
+        &:hover {
+            // background: #e9e9eb;
+            color: $clr-gray;
+        }
+    }
+    form input {
+        margin: 5px 0;
+        padding: 10px 20px;
+        width: 250px;
+        float: left;
+        display: inline-block;
+        outline: none;
+        font-size: 14px;
+        background-color: #ededed;
+        border: 1px solid #ededed;
+        border-radius: 10px;
+        display: inline-block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -ms-transition: 0.2s ease all;
+        -o-transition: 0.2s ease all;
+        transition: 0.2s ease all;
+        color: $clr-gray;
+    }
+}
+
+@media only screen and (max-width:$mobile-breakpoint) {
+    .bs-searchbox {
+        position: relative;
+        margin-bottom: 50px;
+        text-align: center;
+        form input {
+            width: 100%;
+        }
+    }
+}

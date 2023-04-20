@@ -1,0 +1,74 @@
+.bs-banner {
+    position: relative;
+    z-index: 1;
+    .carousel-control-next,
+    .carousel-control-prev {
+        z-index: 2;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        background-image: none !important;
+    }
+    .carousel-indicators {
+        bottom: 25px;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        text-align: left;
+        .banner-para {
+            font-size: 20px;
+            text-align: center;
+            color: $clr-white;
+        }
+    }
+    .custom-arrow {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: $clr-white;
+        z-index: 3;
+        position: relative;
+        // background: rgba(256, 256, 256, 0.6);
+        .pos-center {
+            position: relative;
+            z-index: 4;
+            i {
+                font-size: 15px;
+                color: $clr-gray;
+                opacity: 1;
+                position: absolute;
+                left: -7px;
+                top: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:$desktop-breakpoint) {
+    .bs-banner {
+        position: relative;
+        z-index: 1;
+        .carousel-caption {
+            max-width: 100%;
+            position: absolute;
+            top: 30%;
+            left: 20%;
+            text-align: left;
+        }
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .bs-banner {
+        position: relative;
+        z-index: 1;
+        .carousel-caption {
+            max-width: 100%;
+            position: absolute;
+            top: 20%;
+            left: 20%;
+        }
+    }
+}

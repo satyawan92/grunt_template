@@ -1,0 +1,28 @@
+.bs-list {
+    .list-content {
+        float: left;
+        list-style: none;
+        padding: 0;
+        text-transform: capitalize;
+        li {
+            margin-bottom: 10px;
+            i {
+                font-size: 10px;
+                padding-top: 0px;
+                margin-right: 5px;
+                font-weight: 400;
+            }
+            a {
+                font-size: 16px;
+                color: $clr-gray-text;
+                &:hover {
+                    text-decoration: none;
+                    color: $clr-theme;
+                    i {
+                        color: $clr-theme;
+                    }
+                }
+            }
+        }
+    }
+}
